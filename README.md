@@ -26,7 +26,7 @@ Variables in .env
 PUSH_PUBKEY=
 PUSH_SECRET=
 
-// database file, create using `npx prisma migrate deploy`
+// database file, create using `npx prisma migrate dev --name init`,
 DATABASE_URL="file:./dev.db"
 
 // for google's push server 
